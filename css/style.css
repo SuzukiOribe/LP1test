@@ -119,8 +119,8 @@ body {
 .__inner{
   max-width: 1290px;
   position: relative;
-  margin: 1% auto;
-  padding: 1% 0;
+  margin: 0 auto;
+  padding: 3% 0;
 }
 
 .top-wrap {
@@ -129,7 +129,7 @@ body {
 }
 
 .top-wrap__ttl{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.3px;
   margin-top: 3%;
@@ -140,9 +140,9 @@ body {
 }
 
 .top-wrap__mes{
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  letter-spacing: -0.8px;
+  line-height: 1.6;
 }
 
 .top-wrap__mes span{
@@ -150,30 +150,29 @@ body {
   background-color: #EC7986;
   color: #fff;
   letter-spacing: 3px;
-  height: 50px;
-  width: 170px;
+  height: 40px;
+  width: 150px;
   text-align: center;
-  padding: 0.1%;
 }
 
 .top-wrap__img{
   display: inline-block;
-  width: 55%;
-  margin-top: -7px;
+  width: 45%;
+  margin-top: 10px;
   margin-left: 5px;
 }
 
 .top-wrap__img img{
-  width: 93%;
-  height: 93%;
+  width: 100%;
+  height: 100%;
 }
 
 .top-wrap__list {
-  width: 51.5%;
+  width: 45%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 3%;
+  margin-top: 2%;
   list-style: none;
   letter-spacing: 3px;
 }
@@ -185,17 +184,17 @@ body {
   color: #fff;
   text-align: center;
   padding: 1.8% 0;
-  height: 30px;
+  height: 25px;
 }
 
 .top-wrap__btn__list{
-  width: 51.5%;
+  width: 45%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 34px;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .top-wrap__btn__list a{
@@ -237,7 +236,7 @@ body {
 
 .s-ttl{
   display: inline-block;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -250,7 +249,7 @@ body {
   position: relative;
   width: 29.5%;
   text-align: center;
-  padding: 1.5%;
+  padding: 2%;
 }
 
 .pro-wrap__con__block img{
@@ -280,7 +279,7 @@ body {
 .sol{
   background-color: #00ACEB;
   color: #fff;
-  padding-top: 7%;
+  padding-top: 5%;
 }
 
 .sol-wrap__ttl {
@@ -288,7 +287,7 @@ body {
 }
 
 .sol-wrap__ttl p{
-  font-size: 1.55rem;
+  font-size: 1.25rem;
 }
 
 .sol-wrap__con {
@@ -320,14 +319,13 @@ body {
 }
 
 .fea-wrap{
-  width: 89%;
-  margin-top: 3%;
+  width: 80%;
 }
 
 .fea-wrap__ttl{
   text-align: center;
-  margin-top: 3.5%;
-  margin-bottom: 8%;
+  /* margin-top: 3%; */
+  margin-bottom: 3%;
 }
 
 .fea-wrap__ttl h2{
@@ -353,8 +351,8 @@ body {
 }
 
 .fea-wrap__con__block__txt span {
-  line-height: 110px;
-  font-size: 1.75rem;
+  line-height: 130px;
+  font-size: 1.5rem;
 }
 
 .fea-wrap__con__block__txt h3{
@@ -369,6 +367,7 @@ body {
 }
 
 .fea-wrap__con__block__txt p{
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -389,8 +388,6 @@ body {
 
 .voi-wrap__ttl{
   text-align: center;
-  margin-top: 2%;
-  margin-bottom: 0.25%;
 }
 
 .voi-wrap__con {
@@ -435,19 +432,19 @@ body {
 }
 
 .pln-wrap__con{
-  width: 80%;
+  width: 70%;
   margin: 1.75% auto;
 }
 
 .pln-wrap__mes {
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: inline-block;
   position: relative;
   background-color: #00ACEB;
   color: #fff;
   letter-spacing: 3px;
-  height: 65px;
-  width: 275px;
+  height: 50px;
+  width: 240px;
   text-align: center;
 }
 
@@ -455,7 +452,7 @@ body {
   content: "";
   position: absolute;
   bottom: -18px;
-  left: 110px;
+  left: 100px;
   border-top: 20px solid #00ACEB;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
@@ -468,21 +465,22 @@ body {
 
 .pln-wrap__price__left{
   width: 70%;
-  margin-top: -30px;
+  /* margin-top: -30px; */
 }
 
 .pln-wrap__price__left span{
-  font-size: 6.75rem;
+  font-size: 6rem;
   color: #EC7986;
   font-weight: 700;
   letter-spacing: -5px;
 }
 
 .pln-wrap__price__right{
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: 40%;
   text-align: right;
-  line-height: 135%;
+  margin-top: 30px;
+  line-height: 150%;
 }
 
 .pln-wrap__price__right p{
@@ -494,7 +492,7 @@ body {
 
 .pln-wrap__txt{
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #EC7986;
   margin-top: -5px;
 }
@@ -503,7 +501,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-top: 6.5%;
 }
 
@@ -518,7 +516,7 @@ body {
   position: relative;
   background-color: #EC7986;
   border-radius: 50px;
-  padding: 1.5% 10%;
+  padding: 1% 5%;
 }
 
 .pln-wrap__btn__list__dl:hover {
@@ -531,7 +529,7 @@ body {
   position: relative;
   background-color: #6A6A6A;
   border-radius: 50px;
-  padding: 1.5% 10%;
+  padding: 1% 5%;
 }
 
 .pln-wrap__btn__list__try:hover {
@@ -540,7 +538,7 @@ body {
 
 .faq-wrap__ttl{
   text-align: center;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 
 .faq-wrap__con{
@@ -572,17 +570,17 @@ body {
 
 .con-wrap__ttl {
   text-align: center;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 .con-wrap__ttl p{
-  margin-top: 3%;
+  margin-top: 2%;
   font-size: 1.25rem;
 }
 
 .con-wrap__con {
   display: flex;
-  width: 67.5%;
+  width: 50%;
   margin: 2% auto;
   align-items: center;
   background: #fff;
@@ -602,7 +600,7 @@ body {
 .con-wrap__con__form__item label {
   display: block;
   position: relative;
-  font-size: 1.75rem;
+  /* font-size: 1.75rem; */
   padding-bottom: 0.75%;
 }
 
@@ -624,16 +622,16 @@ body {
 
 .con-wrap__con__form__item input {
   width: 100%;
-  height: 3.5rem;
+  height: 2rem;
   border: solid 1px;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .con-wrap__con__form__item textarea {
   width: 100%;
   height: 10rem;
   border: solid 1px;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .con-wrap__con__form__btn {
@@ -646,7 +644,7 @@ body {
 .con-wrap__con__form__btn button {
   width: 100%;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   border: unset;
   background-color:unset;
@@ -664,5 +662,5 @@ body {
 
 .footer-wrap {
   text-align: center;
-  margin-bottom: 1.5%;
+  padding: 2.5% 0;
 }
