@@ -45,12 +45,12 @@ body {
 }
 
 .header-wrap__nav {
-  width: 40%;
+  width: 60%;
 }
 
 .header-wrap__nav__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -143,6 +143,7 @@ body {
   font-weight: 700;
   line-height: 1.6;
   display: flex;
+  word-break:keep-all;
 }
 
 .top-wrap__mes span{
@@ -262,7 +263,7 @@ body {
 
 .pro-wrap__con__block p{
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.25rem;
   letter-spacing: 0px;
 }
 
@@ -414,7 +415,7 @@ body {
 
 .voi-wrap__con__block p {
   text-align: left;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-top: 5%;
   letter-spacing: 0px;
   line-height: 130%;
@@ -423,7 +424,7 @@ body {
 .voi-wrap__con__block span{
   display: inline-block;
   margin-bottom: 5%;
-  /* font-size: 0.75rem; */
+  font-size: 1.25rem;
 }
 
 .pln-wrap__ttl{
@@ -431,7 +432,7 @@ body {
 }
 
 .pln-wrap__con{
-  width: 70%;
+  width: 75%;
   margin: 1.75% auto;
 }
 
@@ -471,6 +472,7 @@ body {
   color: #EC7986;
   font-weight: 700;
   letter-spacing: -5px;
+  margin-right: 10px;
 }
 
 .pln-wrap__price__right{
@@ -500,7 +502,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin: 6.5% auto;
 }
 
@@ -545,6 +547,7 @@ body {
   width: 60%;
   margin: 0 auto;
   text-align: left;
+  padding: 0 30%;
 }
 
 .faq-wrap__con__block{
