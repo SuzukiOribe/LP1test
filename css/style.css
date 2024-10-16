@@ -29,28 +29,41 @@ body {
   justify-content: space-between;
   background-color: #fff;
   align-items: center;
-  padding: 1% 2%  0;
+  padding: 1% 2% ;
   height: inherit;
 }
 
+.header-wrap__left{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+
+
 .header-wrap__img {
-  width: 26%;
+  width: 50%;
   aspect-ratio: 17/4;
+  margin-right: 15%;
 }
 
 .header-wrap__img a img {
   display: block;
-  width: 92%;
-  height: 92%;
+  width: 100%;
+  height: 100%;
 }
 
 .header-wrap__nav {
-  width: 60%;
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  display: block;
+  margin: auto ;
 }
 
 .header-wrap__nav__list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-between ;
   align-items: center;
 }
 
@@ -86,11 +99,12 @@ body {
   background-color: #EC7986;
   border-radius: 50px;
   padding: 3% 5%;
+  cursor: pointer;
+  transition: all;
 }
 
 .header-wrap__btn__list__dl:hover {
   opacity: 0.7;
-  transition: all;
 }
 
 .header-wrap__btn__list__try {
@@ -100,6 +114,8 @@ body {
   background-color: #6A6A6A;
   border-radius: 50px;
   padding: 3% 5%;
+  cursor: pointer;
+  transition: all;
 }
 
 .header-wrap__btn__list__try:hover {
@@ -208,11 +224,12 @@ body {
   border: 2px solid #fff;
   border-radius: 50px;
   padding: 2% 6.5%;
+  cursor: pointer;
+  transition: all;
 }
 
 .top-wrap__btn__list__dl:hover {
   opacity: 0.7;
-  transition: all;
 }
 
 .top-wrap__btn__list__try {
@@ -223,11 +240,12 @@ body {
   border: 2px solid #fff;
   border-radius: 50px;
   padding: 2% 6.5%;
+  cursor: pointer;
+  transition: all;
 }
 
 .top-wrap__btn__list__try:hover {
   opacity: 0.7;
-  transition: all;
 }
 
 .pro-wrap__ttl{
@@ -418,7 +436,8 @@ body {
   font-size: 1rem;
   margin-top: 5%;
   letter-spacing: 0px;
-  line-height: 130%;
+  /* line-height: 130%; */
+  line-height: 1.75rem;
 }
 
 .voi-wrap__con__block span{
@@ -498,7 +517,7 @@ body {
 }
 
 .pln-wrap__btn__list{
-  width: 75%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -518,11 +537,12 @@ body {
   background-color: #EC7986;
   border-radius: 50px;
   padding: 1% 5%;
+  cursor: pointer;
+  transition: all;
 }
 
 .pln-wrap__btn__list__dl:hover {
   opacity: 0.7;
-  transition: all;
 }
 
 .pln-wrap__btn__list__try {
@@ -532,6 +552,8 @@ body {
   background-color: #6A6A6A;
   border-radius: 50px;
   padding: 1% 5%;
+  cursor: pointer;
+  transition: all;
 }
 
 .pln-wrap__btn__list__try:hover {
