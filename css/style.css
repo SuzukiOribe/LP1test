@@ -102,7 +102,7 @@ body {
 
 .header-wrap__btn__list__dl {
   display: inline-block;
-  margin-top: -3%;
+  /* margin-top: -3%; */
   position: relative;
   background-color: #EC7986;
   border-radius: 50px;
@@ -120,7 +120,7 @@ body {
 }
 .header-wrap__btn__list__try {
   display: inline-block;
-  margin-top: -3%;
+  /* margin-top: -3%; */
   position: relative;
   background-color: #6A6A6A;
   border-radius: 50px;
